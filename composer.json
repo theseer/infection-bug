@@ -1,0 +1,15 @@
+{
+    "name": "theseer/bug",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Arne Blankerts",
+            "email": "Arne@Blankerts.de"
+        }
+    ],
+    "require": {}
+}

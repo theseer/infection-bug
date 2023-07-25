@@ -1,0 +1,25 @@
+Escaped mutants:
+================
+
+Timed Out mutants:
+==================
+
+Skipped mutants:
+================
+
+Not Covered mutants:
+====================
+
+1) /home/theseer/Desktop/bug/src/Bug.php:9    [M] Continue_
+
+--- Original
++++ New
+@@ @@
+         $result = [];
+         foreach ($data as $value) {
+             if (!$this->isOkay($value)) {
+-                continue;
++                break;
+             }
+             $result[] = $value;
+         }
